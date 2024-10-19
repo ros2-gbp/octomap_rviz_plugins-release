@@ -1,3 +1,26 @@
+## octomap_rviz_plugins (iron) - 2.1.1-1
+
+The packages in the `octomap_rviz_plugins` repository were released into the `iron` distro by running `/usr/bin/bloom-release -r iron octomap_rviz_plugins --non-interactive` on `Sat, 19 Oct 2024 12:17:25 -0000`
+
+The `octomap_rviz_plugins` package was released.
+
+Version of package(s) in repository `octomap_rviz_plugins`:
+
+- upstream repository: https://github.com/OctoMap/octomap_rviz_plugins.git
+- release repository: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
+- rosdistro version: `2.1.0-1`
+- old version: `2.1.0-1`
+- new version: `2.1.1-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.0`
+- vcstools version: `0.1.42`
+
+
 ## octomap_rviz_plugins (rolling) - 2.1.1-1
 
 The packages in the `octomap_rviz_plugins` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling octomap_rviz_plugins --non-interactive` on `Sat, 19 Oct 2024 12:14:33 -0000`
