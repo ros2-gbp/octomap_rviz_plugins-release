@@ -1,0 +1,12 @@
+Source: ros-rolling-octomap-rviz-plugins
+Section: misc
+Priority: optional
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Build-Depends: debhelper (>= 9.0.0), liboctomap-dev, libqt6core6, libqt6gui6, libqt6widgets6, qt6-base-dev, ros-rolling-ament-cmake-auto, ros-rolling-ament-lint-auto <!nocheck>, ros-rolling-ament-lint-common <!nocheck>, ros-rolling-octomap-msgs, ros-rolling-rclcpp, ros-rolling-rviz-common, ros-rolling-rviz-default-plugins, ros-rolling-rviz-rendering, ros-rolling-ros-workspace
+Homepage: http://ros.org/wiki/octomap_rviz_plugins
+Standards-Version: 3.9.2
+
+Package: ros-rolling-octomap-rviz-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liboctomap-dev, libqt6core6, libqt6gui6, libqt6widgets6, qt6-base-dev, ros-rolling-octomap-msgs, ros-rolling-rclcpp, ros-rolling-rviz-common, ros-rolling-rviz-default-plugins, ros-rolling-rviz-rendering, ros-rolling-ros-workspace
+Description: A set of plugins for displaying occupancy information decoded from binary octomap messages.
