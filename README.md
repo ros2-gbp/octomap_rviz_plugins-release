@@ -1,3 +1,26 @@
+## octomap_rviz_plugins (rolling) - 2.2.0-1
+
+The packages in the `octomap_rviz_plugins` repository were released into the `rolling` distro by running `/usr/bin/bloom-release -r rolling -t rolling octomap_rviz_plugins` on `Tue, 03 Feb 2026 19:58:54 -0000`
+
+The `octomap_rviz_plugins` package was released.
+
+Version of package(s) in repository `octomap_rviz_plugins`:
+
+- upstream repository: https://github.com/OctoMap/octomap_rviz_plugins.git
+- release repository: https://github.com/ros2-gbp/octomap_rviz_plugins-release.git
+- rosdistro version: `2.1.1-1`
+- old version: `2.1.1-1`
+- new version: `2.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## octomap_rviz_plugins (humble) - 2.1.1-1
 
 The packages in the `octomap_rviz_plugins` repository were released into the `humble` distro by running `/usr/bin/bloom-release -r humble octomap_rviz_plugins --non-interactive` on `Sat, 19 Oct 2024 12:21:00 -0000`
