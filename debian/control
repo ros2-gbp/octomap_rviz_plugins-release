@@ -1,0 +1,12 @@
+Source: ros-lyrical-octomap-rviz-plugins
+Section: misc
+Priority: optional
+Maintainer: Wolfgang Merkt <opensource@wolfgangmerkt.com>
+Build-Depends: debhelper (>= 9.0.0), liboctomap-dev, libqt5core5t64, libqt5gui5t64, libqt5widgets5t64, qtbase5-dev, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-octomap-msgs, ros-lyrical-rclcpp, ros-lyrical-rviz-common, ros-lyrical-rviz-default-plugins, ros-lyrical-rviz-rendering, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/octomap_rviz_plugins
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-octomap-rviz-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, liboctomap-dev, libqt5core5t64, libqt5gui5t64, libqt5widgets5t64, qtbase5-dev, ros-lyrical-octomap-msgs, ros-lyrical-rclcpp, ros-lyrical-rviz-common, ros-lyrical-rviz-default-plugins, ros-lyrical-rviz-rendering, ros-lyrical-ros-workspace
+Description: A set of plugins for displaying occupancy information decoded from binary octomap messages.
